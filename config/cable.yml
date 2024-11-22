@@ -10,6 +10,8 @@ test:
 
 production:
   adapter: solid_cable
+  url: wss://backend-chat-service-production.up.railway.app/api/v1/cable
+  allowed_request_origins: "*"
   connects_to:
     database:
       writing: cable

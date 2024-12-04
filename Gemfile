@@ -49,4 +49,4 @@ group :development, :test do
   gem "rspec-rails"
 end
 
-gem "sqlite3", "~> 2.3"
+gem "sqlite3", "~> 2.4"
